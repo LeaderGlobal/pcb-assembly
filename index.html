@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leader Global - PCB Assembly Services | 專業PCB組裝一站式代工</title>
+  <meta name="description" content="Leader Global 提供專業的 PCB 組裝服務，包括SMT、DIP、測試與成品組裝，服務醫療、工業、通訊等產業。Leader Global offers professional PCB assembly services including SMT, DIP, testing, and box build for medical, industrial, and telecom sectors.">
+  <meta name="keywords" content="PCB 組裝, PCB Assembly, SMT, DIP, EMS, OEM, ODM, Leader Global, 電子代工">
+  <meta name="author" content="Leader Global" />
+  <link rel="canonical" href="https://yourusername.github.io/pcb-assembly-site/">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, section, footer { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    header { background: #002B5B; color: white; text-align: center; }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #0072CE;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    h2 { color: #002B5B; }
+    .services, .industries {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 calc(33% - 20px);
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #002B5B;
+      color: white;
+      text-align: center;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    form button {
+      background: #0072CE;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .lang-switch { text-align: right; margin: 10px 20px; }
+    .lang-switch button { margin-left: 10px; padding: 5px 10px; cursor: pointer; }
+  </style>
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.style.display = el.dataset.lang === lang ? 'block' : 'none';
+      });
+    }
+    window.onload = () => switchLang('zh');
+  </script>
+</head>
+<body>
+
+<div class="lang-switch">
+  <button onclick="switchLang('zh')">中文</button>
+  <button onclick="switchLang('en')">English</button>
+</div>
+
+<header>
+  <h1 data-lang="zh">Leader Global | 專業一站式 PCB 組裝服務</h1>
+  <h1 data-lang="en">Leader Global | One-Stop PCB Assembly Services</h1>
+  <p data-lang="zh">從設計、採購到組裝，為您打造高品質電子產品</p>
+  <p data-lang="en">From design and sourcing to assembly – high-quality guaranteed.</p>
+  <a class="btn" href="#contact">聯絡我們 / Contact Us</a>
+  <a class="btn" href="#about">了解更多 / Learn More</a>
+</header>
+
+<section id="about">
+  <h2>公司簡介 / About Leader Global</h2>
+  <p data-lang="zh">Leader Global 專注於提供高品質的 PCB 組裝服務，服務橫跨多元產業，通過多項國際認證。</p>
+  <p data-lang="en">Leader Global specializes in high-quality PCB assembly, serving diverse industries and certified with international standards.</p>
+</section>
+
+<section id="services">
+  <h2>服務項目 / Our Services</h2>
+  <div class="services">
+    <div class="card">PCB 設計 / PCB Design</div>
+    <div class="card">零件採購 / Component Sourcing</div>
+    <div class="card">SMT 組裝 / SMT Assembly</div>
+    <div class="card">插件焊接 / Through-Hole Assembly</div>
+    <div class="card">功能測試 / Functional Testing</div>
+    <div class="card">成品組裝 / Box Build Assembly</div>
+  </div>
+</section>
+
+<section id="equipment">
+  <h2>製程與設備 / Manufacturing & Equipment</h2>
+  <p data-lang="zh">Leader Global 擁有自動化 SMT 線、高精度 AOI、自動插件機、ICT 測試系統。</p>
+  <p data-lang="en">Leader Global is equipped with SMT lines, AOI inspection, auto-insertion machines, and ICT testing systems.</p>
+</section>
+
+<section id="certs">
+  <h2>品質與認證 / Quality & Certifications</h2>
+  <ul>
+    <li>ISO 9001</li>
+    <li>ISO 13485</li>
+    <li>ISO 14001</li>
+  </ul>
+</section>
+
+<section id="industries">
+  <h2>應用領域 / Industries Served</h2>
+  <div class="industries">
+    <div class="card">醫療電子 / Medical Electronics</div>
+    <div class="card">工業自動化 / Industrial Automation</div>
+    <div class="card">汽車電子 / Automotive Electronics</div>
+    <div class="card">通訊設備 / Telecom Equipment</div>
+    <div class="card">消費性電子 / Consumer Electronics</div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>客戶見證 / Testimonials</h2>
+  <blockquote>
+    <p>Leader Global 提供穩定高效的代工服務，讓我們更放心拓展市場。</p>
+    <p>Leader Global provides reliable and efficient services that help us expand with confidence.</p>
+  </blockquote>
+</section>
+
+<section id="contact">
+  <h2>聯絡我們 / Contact Leader Global</h2>
+  <p>
+    📍 5F-3, No. 872, Zhongzheng Rd., Zhonghe Dist., New Taipei City 23586, Taiwan (R.O.C.)<br>
+    📞 +886-2-2242-8411<br>
+    ✉️ <a href="mailto:sales@leaderelec.com.tw">sales@leaderelec.com.tw</a>
+  </p>
+  <form>
+    <input type="text" placeholder="姓名 / Name" required />
+    <input type="email" placeholder="電子信箱 / Email" required />
+    <textarea placeholder="您的需求 / Your Message" required></textarea>
+    <button type="submit">送出 / Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Leader Global. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
